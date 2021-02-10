@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // MaxUint - maximum unsigned integer value
 const MaxUint = ^uint64(0)
 
@@ -43,8 +41,8 @@ func minMax(arr []int) []int {
 }
 
 func main() {
-	a := []int{1, 2, 3, 4, -1, 1000000, -45}
+	// a := []int{1, 2, 3, 4, -1, 1000000, -45}
 	// fmt.Println(reverseArray((a)))
-	fmt.Println(minMax(a))
+	// fmt.Println(minMax(a))
 
 }
